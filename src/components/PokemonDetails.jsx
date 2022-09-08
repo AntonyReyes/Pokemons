@@ -78,7 +78,6 @@ const PokemonDetails = () => {
       setStyleSpeed(handleColor(speed))
       setCount(count+1)
     }
-    console.log(count);
 
   }, [pokeInfo,styleHp,styleAttack,styleDefense,styleSpeed])
 
