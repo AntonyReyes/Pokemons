@@ -31,6 +31,8 @@
   width: 40%;
   position: relative;
   padding-top: 2em;
+  cursor: pointer;
+  
 }
 
 .welcomeForm {
@@ -76,6 +78,7 @@
   border-radius: 5px;
   box-shadow: 3px 4px 10px #000a;
   background-color: #fef0f0;
+  cursor: pointer;
 }
 
 option {
