@@ -1,0 +1,182 @@
+.cardNavigation{
+    max-width: 1200px;
+    min-width: 250px;
+    margin: auto;
+}
+
+
+
+.cardNavigation_ul{
+    display: flex;
+    justify-content: space-between;
+    margin: 0 1% 0 1%;
+    background-color:#7EC6C5 ;
+    padding: 2px;
+    margin-bottom: 2em;
+    cursor: pointer;
+}
+
+
+.cardNavigation_li{
+    text-align: center;
+    border: 1px solid #7EC6C5;
+    padding: 2% 3.7% 2% 3.7%;
+    width: 100%;
+    font-size: 20px;
+    font-weight: 700;
+    font-family: Roboto;
+    background: linear-gradient(177.03deg, #7E7E7E -11.97%, #8D8D94 57.49%, #D3D3D3 135.64%);
+}
+
+
+.cardNavigation_li_btn_sig{
+    border: 1px solid #7EC6C5;
+    padding: 2% 3.7% 2% 3.7%;
+    width: max-content;
+    font-size: 20px;
+    font-weight: 900;
+    color: white;
+    font-family: Roboto;
+    background: linear-gradient(176.83deg, #96402A -8.78%, #F1613C 169.09%, #CB735D 242.33%);
+}
+
+.cardNavigation_li_1{
+    text-align: center;
+    border: 1px solid #7EC6C5;
+    padding: 2% 2% 2% 2%;
+    width: 100%;
+    font-size: 20px;
+    font-weight: 700;
+    font-family: Roboto;
+    background: linear-gradient(177.03deg, #7E7E7E -11.97%, #8D8D94 57.49%, #D3D3D3 135.64%);
+}
+
+.cardNavigation_ul_final{
+    display: flex;
+    justify-content: space-between;
+    background-color:#7EC6C5 ;
+    cursor: pointer;
+    width: 25%;
+    margin: auto;
+    margin-bottom: 2em;
+    padding: 1px 1px 1px 3px;
+}
+
+.cardNavigation_li_Final{
+    text-align: center;
+    border: 3px solid #7EC6C5;
+    padding: 1em 2em 1em 2em;
+    width: 50%;
+    font-size: 20px;
+    font-weight: 700;
+    font-family: Roboto;
+    background: linear-gradient(177.03deg, #7E7E7E -11.97%, #8D8D94 57.49%, #D3D3D3 135.64%);
+    padding: 1em 2em 1em 2em;
+}
+
+
+.cardNavigation_li_btn_final{
+    border: 3px solid #7EC6C5;
+    padding: 1em 2em 1em 2em;
+    width: 50%;
+    font-size: 20px;
+    font-weight: 900;
+    color: white;
+    font-family: Roboto;
+    background: linear-gradient(176.83deg, #96402A -8.78%, #F1613C 169.09%, #CB735D 242.33%);
+    text-align: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media(max-width: 500px){
+    .cardGeneral{
+        transform: scale(0.90);
+        position: relative;
+        display: block;
+        bottom: 30.99em;
+    }
+    .CARD-CONTENEDOR-MODO-MOBIL{
+        /* height: 1000em; */
+        position: absolute;
+        background-color: rgb(234, 252, 245);
+        display: flex;
+        position: absolute;
+        max-height: 560em;
+    }
+    .container_general_card_PD{
+        transform: scale(0.90);
+        position: relative;
+        display: block;
+        bottom: 7em;
+        
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* usar footer mas adelante */
+
+/* .footer_P{
+    background-color: black;
+    position: relative;
+    height: 10em;
+    max-width: 1200px;
+    min-width: 250px;
+    display: block;
+    margin: auto;
+}
+
+.footer_p_1{
+    background-color: aqua;
+    text-align: center;
+    
+} */

@@ -1,0 +1,298 @@
+.container_general_card_PD {
+    max-width: 1500px;
+    min-width: 250px;
+    margin: auto;
+    min-height: 100vh;
+}
+
+
+.cardPD {
+    width: 90%;
+    max-width: 1081px;
+    margin: auto;
+    min-width: 250px;
+    margin-top: 1em;
+    background-color: white;
+    box-shadow: 1px 4px 15px #000a;
+    padding-top: 0px;
+    border-radius: 1em;
+    padding-bottom: 0.3em;
+}
+
+
+.containerPD {
+    width: 100%;
+    position: relative;
+    text-align: center;
+    margin-top: 6em;
+    height: 125px;
+    transform: scale(.80);
+}
+
+.card__img_pokemonDetails {
+    width: 225px;
+    transform: translateY(-95%);
+    text-align: center;
+}
+
+
+
+.cardPI__hr_h1_title {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#cardPI_hr_h1_1 {
+    min-width: 20%;
+}
+
+#cardPI_hr_h1_2 {
+    width: 10%;
+    min-width: 150px;
+    text-align: center;
+    padding: 0;
+}
+
+#cardPI_hr_h1_3 {
+    min-width: 20%;
+}
+
+.cardPI_W_H {
+    display: flex;
+    justify-content: center;
+}
+
+.cardPI_W_H_ul_1 {
+    text-align: center;
+    padding-right: 4%;
+}
+
+.cardPI_W_H_ul_2 {
+    text-align: center;
+    color: #0F0F2D;
+    font-family: Roboto;
+    padding-left: 4%;
+}
+
+.cardPI_W_H_ul_wh {
+    color: #0F0F2D;
+    font-size: 25px;
+    font-weight: 500;
+    font-family: Roboto;
+}
+
+.cardPI_Abilities_container{
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.cardAbilities {
+    text-align: center;
+    width: 47%;
+    min-width: 100px;
+    margin-left: 2%;
+    margin-top: 1em;
+}
+
+.cardPI_Abilities {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    font-family: Roboto;
+    width: 80%;
+    margin: auto;
+    margin-bottom: 2em;
+}
+
+
+
+.cardType {
+    text-align: center;
+    width: 47%;
+    min-width: 100px;
+    margin-left: 2%;
+    margin-top: 1em;
+}
+
+.cardAbilities {
+    text-align: center;
+    width: 49%;
+    min-width: 100px;
+}
+
+.cardType_container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+}
+
+.cardType_h3 {
+    margin-bottom: 1em;
+}
+
+.cardAbilities_h3 {
+    margin-bottom: 1em;
+}
+
+.cardAbilites_container {
+    display: flex;
+    align-items: center;
+}
+
+.cardType_container_h4_1 {
+    background-color: #85C9C5;
+    width: 45%;
+    margin-right: 10%;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+.cardType_container_h4_2 {
+    background-color: #6C3D9A;
+    width: 45%;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+.cardAbilites_container_h4_1 {
+    background: #FFFFFF;
+    box-shadow: 1px 3px 10px #000a;
+    width: 45%;
+    margin-right: 10%;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+.cardAbilites_container_h4_2 {
+    background: #FFFFFF;
+    box-shadow: 1px 3px 10px #000a;
+    width: 45%;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+@media(max-width:500px) {
+
+    .cardAbilities {
+        width: 100%;
+        display: block;
+        position: relative;
+    }
+
+    .cardType {
+        width: 100%;
+        display: block;
+        position: relative;
+    }
+
+    .cardPI_Abilities {
+        position: relative;
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+    }
+
+    .cardPI_Abilities {
+        width: 88%;
+    }
+}
+
+.statsTitle {
+    background-color: rgb(35, 27, 27);
+    padding-top: 0.3em;
+    padding-bottom: 0.3em;
+    box-shadow: 1px 1px 10px #000a;
+    text-align: center;
+    width: 94%;
+    margin: auto;
+    border-radius: 5px;
+    margin-bottom: 1em;
+    color: whitesmoke;
+    font-family: Roboto;
+}
+
+.card_stats {
+    margin-bottom: 1em;
+}
+
+.cardStats_1 {
+    justify-content: space-between;
+    position: relative;
+    width: 95%;
+    margin: auto;
+}
+
+.cardStats_li_1 {
+    display: inline-block;
+    padding-top: 0.3em;
+    padding-bottom: 0.3em;
+}
+
+.cardStats_li_2 {
+    display: inline-block;
+}
+
+.cardStats_ul {
+    display: flex;
+    justify-content: space-between;
+    padding: 0 1em 0 1em;
+}
+
+.cardStatspercentage {
+    height: 2em;
+    margin: 1%;
+    box-shadow: 1px 3px 10px #000a;
+    background-color: #F7F7F7;
+    border-radius: 0.6em;
+}
+
+.cardStatspercentage_porcen {
+    display: block;
+    text-align: end;
+    padding-top: 0.5em;
+    padding-right: 0.3em;
+    color: #bad6f2;
+    font-family: Roboto;
+    font-weight: 800;
+}
+
+.conatiner_movements {
+    background-color: white;
+    box-shadow: 1px 4px 15px #000a;
+    width: 90%;
+    max-width: 1081px;
+    margin: auto;
+    min-width: 250px;
+    margin-top: 4em;
+    margin-bottom: 2em;
+    border-radius: 1em;
+}
+
+.title_Movements {
+    text-align: center;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 45px;
+    padding: 10px;
+}
+
+.card_movements_ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 20px;
+    padding: 2em;
+}
+
+.card_movements_li {
+    background-color: #E5E5E5;
+    display: inline-block;
+    margin: auto;
+    border-radius: 8px;
+    padding-left: 8px;
+    padding-right: 8px;
+}
