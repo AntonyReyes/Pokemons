@@ -27,6 +27,7 @@ const PokemonDetails = () => {
   const [styleSpeed, setStyleSpeed] = useState({})
 
 
+
   const handleColor = (value = 0) => {
     if (value < 100) {
       const Obj = {
@@ -58,24 +59,36 @@ const PokemonDetails = () => {
       .catch(err => console.log(err))
   }, [])
 
+  const [count, setCount] = useState(0)
 
   useEffect(() => {
-    setHp(((pokeInfo?.stats[0].base_stat) * 2 / 3).toFixed(2))
-    setAttack(((pokeInfo?.stats[1].base_stat * 2 / 3)).toFixed(2))
-    setDefense(((pokeInfo?.stats[2].base_stat) * 2 / 3).toFixed(2))
-    setSpeed(((pokeInfo?.stats[5].base_stat) * 2 / 3).toFixed(2))
+    
+    if(count<10){
+      setHp(((pokeInfo?.stats[0].base_stat) * 2 / 3).toFixed(2))
+      setAttack(((pokeInfo?.stats[1].base_stat * 2 / 3)).toFixed(2))
+      setDefense(((pokeInfo?.stats[2].base_stat) * 2 / 3).toFixed(2))
+      setSpeed(((pokeInfo?.stats[5].base_stat) * 2 / 3).toFixed(2))
+  
+      setStyleHp(handleColor(hp))
+  
+      setStyleAttack(handleColor(attack))
+  
+      setStyleDefense(handleColor(defense))
+  
+      setStyleSpeed(handleColor(speed))
+      setCount(count+1)
+    }
+    console.log(count);
 
-    setStyleHp(handleColor(hp))
-
-    setStyleAttack(handleColor(attack))
-
-    setStyleDefense(handleColor(defense))
-
-    setStyleSpeed(handleColor(speed))
+  }, [pokeInfo,styleHp,styleAttack,styleDefense,styleSpeed])
 
 
-  }, [styleHp])
+  useEffect(()=> {
+    if(count===10){
+      setCount(0)
+    }
 
+  },[count])
 
   return (
 
@@ -124,8 +137,8 @@ const PokemonDetails = () => {
             <div className='cardAbilities'>
               <h3 className='cardAbilities_h3'>Abilites</h3>
               <div className='cardAbilites_container'>
-                <h4 className='cardAbilites_container_h4_1'>{pokeInfo?.abilities[0].ability.name}</h4>
-                <h4 className='cardAbilites_container_h4_2'>{pokeInfo?.abilities[1].ability.name}</h4>
+                <h4 className='cardAbilites_container_h4_1'>{ pokeInfo?.abilities[0] ? pokeInfo?.abilities[0].ability.name : 'unknown'}</h4>
+                <h4 className='cardAbilites_container_h4_2'>{ pokeInfo?.abilities[1]? pokeInfo?.abilities[1].ability.name: 'unknown'}</h4>
               </div>
             </div>
           </div>

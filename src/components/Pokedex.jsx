@@ -48,9 +48,6 @@ const Pokedex = () => {
 
   const nameTrainer = useSelector(state => state.nameTrainer)
 
-  console.log(pokemons);
-  console.log(optionType);
-
   return (
     <div className='CARD-CONTENEDOR-MODO-MOBIL'>
       <div className='cardGeneral'>

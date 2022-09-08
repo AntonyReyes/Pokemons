@@ -17,8 +17,7 @@ const PokemonCard = ({url}) => {
   }, [])
 
   const handleClick = () => navigate(`/pokedex/${pokemon.name}`)
-
-  console.log(pokemon);    pokemon?.sprites.other["official-artwork"]["front_default"]
+  
 
   return (
     pokemon?.sprites.other["official-artwork"]["front_default"]?
