@@ -40,9 +40,9 @@ const PokemonDetails = () => {
       return Obj
     } else {
       const Obj = {
-        width: value.toString + '',
+        width: value.toString() + '%',
         height: '100%',
-        backgroundColor: 'linear-gradient(90deg, #FCD676 -2.25%, #E6901E 133.18%)',
+        background: 'linear-gradient(90deg, #FCD676 -2.25%, #E6901E 133.18%)',
         'border-bottom-right-radius': '0.6em',
         'border-top-right-radius': '0.6em',
         'border-start-start-radius': '0.6em',
