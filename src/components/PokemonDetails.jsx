@@ -91,7 +91,7 @@ const PokemonDetails = () => {
             <img className='card__img_pokemonDetails' src={pokeInfo?.sprites.other['official-artwork'].front_default} alt="" />
 
           </div>
-          <h2 className={`card__name color-text-${pokeInfo?.types[0].type.name}`}># {pokeInfo?.id}</h2>
+          <h2 id='cardPI__hr_h1_title_ID' className={`card__name color-text-${pokeInfo?.types[0].type.name}`}># {pokeInfo?.id}</h2>
           <div className='cardPI__hr_h1_title'>
             <hr id='cardPI_hr_h1_1' className={`card__name color-text-${pokeInfo?.types[0].type.name}`} />
             <h1 id='cardPI_hr_h1_2' className={`card__name color-text-${pokeInfo?.types[0].type.name}`}>{name}</h1>
