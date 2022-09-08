@@ -321,7 +321,7 @@
     border-radius: 1em;
 }
 
-@media(min-width:1000px) {
+@media(min-width:645px) {
     .conatiner_movements {
         width: 30%;
         margin-top: 1.3em;
